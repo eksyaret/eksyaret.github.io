@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - EKSYARET</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #141e30, #243b55);
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 18px;
+      color: #ccc;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    h2 {
+      color: #00ff99;
+      border-bottom: 1px solid #00ff99;
+      padding-bottom: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, textarea {
+      padding: 10px;
+      margin-top: 5px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    input[type="submit"] {
+      margin-top: 20px;
+      background-color: #00ff99;
+      color: #000;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .social {
+      margin-top: 40px;
+      text-align: center;
+    }
+    .social a {
+      margin: 0 10px;
+      color: #00ff99;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      color: #aaa;
+      font-size: 14px;
+    }
+    a.back {
+      color: #00ff99;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact EKSYARET</h1>
+    <p>We'd love to hear from you</p>
+  </header>
+
+  <section>
+    <h2>Send a Message</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="name">Name</label>
+      <input type="text" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" name="email" required />
+
+      <label for="message">Message</label>
+      <textarea name="message" rows="5" required></textarea>
+
+      <input type="submit" value="Send" />
+    </form>
+
+    <div class="social">
+      <h2>Connect with Us</h2>
+      <a href="#">Telegram</a>
+      <a href="#">Twitter</a>
+      <a href="#">Discord</a>
+      <a href="mailto:info@eksyaret.io">Email</a>
+    </div>
+  </section>
+
+  <footer>
+    <a class="back" href="index.html">← Back to Home</a><br>
+    &copy; 2025 EKSYARET Token. All rights reserved.
+  </footer>
+
+</body>
+</html>
